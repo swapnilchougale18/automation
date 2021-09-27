@@ -9,6 +9,7 @@ public static void main(String[] args) throws InterruptedException {
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.naukri.com");
 	Thread.sleep(2000);
+	driver.close();
 	
 }
 }
